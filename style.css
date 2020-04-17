@@ -76,7 +76,13 @@ article img {
 .box_calculator {
   transform: translateY(50%);
 }
-
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
 @media screen and (max-width: 700px) {
   .box_supervisor,
   .box_calculator {
