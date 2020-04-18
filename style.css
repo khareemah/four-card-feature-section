@@ -45,7 +45,6 @@ article::after {
   top: 0;
   left: 0;
   width: 100%;
-  height: 100%;
   height: 3px;
 }
 .box_supervisor::after {
@@ -75,13 +74,6 @@ article img {
 .box_supervisor,
 .box_calculator {
   transform: translateY(50%);
-}
-.attribution {
-  font-size: 11px;
-  text-align: center;
-}
-.attribution a {
-  color: hsl(34, 97%, 64%);
 }
 @media screen and (max-width: 700px) {
   .box_supervisor,
